@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link href='https://fonts.googleapis.com/css?family=Comic Relief' rel='stylesheet'>
+<title>Scrapbook Waffle</title>
+  <style>
+    body {
+      background-image: url('nyancat.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family:"Comic Relief", monospace;
+    }
+    .title {
+      background-color: white;
+      border: solid 7px transparent;
+      text-align: center;
+      border-radius: 20px;
+      background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #fe019a, #eaff00, #00ccff);
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+    }
+    .glitter {
+      position:absolute;
+      top:100px;
+      left:20px;
+    }
+    .waffle {
+      position:absolute;
+      top:15px;
+      right:20px;
+    }
+    .ufo {
+      position:absolute;
+      left:120px;
+      top:30px;
+    }
+    .sparkles {
+      position:absolute;
+      right:30px;
+      top:100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="ufo">
+    <img src="ufo.png" alt=":3">
+  </div>
+  <div class="glitter">
+  <img src="glitter.png" width="80">
+  </div>
+  <div class="waffle">
+    <img src="waffle.png" width="80">
+  </div>
+  <div class="sparkles">
+    <img src="sparkles.png" alt="XD">
+  </div>
+  <div class="title">
+  <img src="glitter-text.gif" class="heading" alt="✨Welcome to Scrapbook Waffle!✨">
+  <p>🪄 A silly awesome website with everything and nothing. Have fun exploring! 😸</p>
+    <p>Sorry about the glitter spill, heh. I was crafting. And don't eat my waffle! :0</p>
+  </div>
+</body>
+</html>
